@@ -1,0 +1,5 @@
+:root {
+  --color-green: green;
+}
+
+@custom-media --min-small (min-width: 500px);

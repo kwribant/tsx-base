@@ -1,0 +1,13 @@
+@import '../../constants/variables.css';
+
+.splash-page {
+  background: pink;
+  color: var(--color-green);
+  display: flex;
+}
+
+@media (--min-small) {
+  .splash-page {
+    background: red;
+  }
+}

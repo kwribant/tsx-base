@@ -1,0 +1,7 @@
+@import '../../constants/variables.css';
+
+.message {
+  background: var(--color-green);
+  color: yellow;
+  display: flex;
+}

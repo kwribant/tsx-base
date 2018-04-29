@@ -1,0 +1,20 @@
+.message {
+  background: green;
+  color: yellow;
+  display: -ms-flexbox;
+  display: flex;
+}
+.splash-page {
+  background: pink;
+  color: green;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 500px) {
+  .splash-page {
+    background: red;
+  }
+}
+
+/*# sourceMappingURL=main.bundle.css.map*/

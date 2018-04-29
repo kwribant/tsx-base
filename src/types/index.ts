@@ -1,0 +1,3 @@
+/*
+Put your global types here
+*/

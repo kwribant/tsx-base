@@ -1,14 +1,19 @@
 # tsx-base
-Base template for TypeScript, React, ReactRouter and CSS Next.
-This is a starting point for web pages that depend on React and TypeScript.
-I love using these for my projects, but getting set up is always a pain.
-This aims to alleviate the set up process so I can get up and running faster.
+- Base template for TypeScript, React, ReactRouter and PostCSS.
+- This is a starting point for web pages that depend on React and TypeScript.
+- I love using these for my projects, but getting set up is always a pain.
+- This aims to alleviate the set up process so I can get up and running faster.  
 
 ## Commands
-`./node_modules/.bin/jest --coverage` run all tests with coverage table in CLI
-`./node_modules/.bin/webpack` Run webpack
+- `npm run test`: run all tests with coverage table in CLI
+- `npm run build`: Run webpack
 
-## todos
-- Add React Router
-- Add Component, Container, Type structure
-- Add CSS Next and CSS structure
+## Structure
+- `/src/index.tsx`: Lowest level wrapper for tsx
+- `/src/components`: React-based components live here
+- `/src/constants`: CSS variables live here
+- `/src/pages`: React-based pages live here
+- `/src/types`: Global TypeScript types live here
+
+## Todos
+[] Add React Router
